@@ -1,13 +1,13 @@
-function alfabetoFarfallino(stringa) {
+function alfabetoFarfallino(string) {
     const vocali = ['a', 'e', 'i', 'o', 'u'];
 
-    const result = stringa
+    const result = string
         .split('')
-        .map((carattere) => {
-            if (vocali.includes(carattere.toLowerCase())) {
-                return carattere.toLowerCase() + 'f' + carattere.toLowerCase();
+        .map((caracter) => {
+            if (vocali.includes(caracter.toLowerCase())) {
+                return caracter.toLowerCase() + 'f' + caracter.toLowerCase();
             } else {
-                return carattere;
+                return caracter;
             }
         })
         .join('');
@@ -15,8 +15,8 @@ function alfabetoFarfallino(stringa) {
     return result;
 }
 
-const inputStringa = 'marco';
-const risultato = alfabetoFarfallino(inputStringa);
-console.log(risultato); // Output: mafarcofo
+const inputString = 'marco';
+const result = alfabetoFarfallino(inputString);
+console.log(result); // Output: mafarcofo
 
 document.body.innerHTML = `<p>Risultato: ${risultato}</p>`;
