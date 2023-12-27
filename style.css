@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-container {
+    background-color: #47710c;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Stile dell'intestazione */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Stile del titolo */
+h1 {
+    color: #f62768;
+}
+
+/* Stile del paragrafo*/
+p {
+    margin-bottom: 20px;
+    color: rgb(180, 159, 83)
+}
